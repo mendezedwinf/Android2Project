@@ -37,4 +37,21 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+    public void Factorial(View v){
+        Bundle b = new Bundle();
+        Intent i = new Intent(this, Factorial.class);
+        i.putExtras(b);
+        startActivity(i);
+        finish();
+    }
+
+    public void NumeroMayor(View v){
+        Bundle b = new Bundle();
+        Intent i = new Intent(this, NumeroMayor.class);
+        i.putExtras(b);
+        startActivity(i);
+        finish();
+    }
+
 }
