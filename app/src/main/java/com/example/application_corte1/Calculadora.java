@@ -52,7 +52,10 @@ public class Calculadora extends AppCompatActivity {
         try {
             double a=Double.parseDouble(et1.getText().toString());
             double b=Double.parseDouble(et2.getText().toString());
-            tv.setText("Total: " +(a/b));
+            if (b <= 0)
+                Toast.makeText(this, "No puede dividir por cero", Toast.LENGTH_LONG).show();
+            else
+                tv.setText("Total: " +(a/b));
         } catch (NumberFormatException e) {
             Toast.makeText(this, "Ingrese un dato", Toast.LENGTH_LONG).show();
         }
