@@ -29,4 +29,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+    public void Calificacion(View v){
+        Bundle b = new Bundle();
+        Intent i = new Intent(this, CalificacionActivity.class);
+        i.putExtras(b);
+        startActivity(i);
+        finish();
+    }
 }
