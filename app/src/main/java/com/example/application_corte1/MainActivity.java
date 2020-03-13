@@ -21,4 +21,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+    public void Calculadora(View v){
+        Bundle b = new Bundle();
+        Intent i = new Intent(this, Calculadora.class);
+        i.putExtras(b);
+        startActivity(i);
+        finish();
+    }
 }
