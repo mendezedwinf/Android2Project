@@ -30,6 +30,7 @@
             android:id="@+id/button15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Bisiesto"
             android:text="Calcular Año Bisiesto" />
 
         <Button
@@ -42,19 +43,19 @@
             android:id="@+id/button17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcu" />
+            android:text="Calculadora" />
 
         <Button
             android:id="@+id/button18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Factorial" />
 
         <Button
             android:id="@+id/button19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Mayor" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
